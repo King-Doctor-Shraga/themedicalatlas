@@ -20,12 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
 
     // Index pages
-    for (const section of ['conditions', 'drugs', 'tests', 'calculators']) {
+    for (const section of ['conditions', 'drugs', 'tests', 'calculators', 'search']) {
       entries.push({
         url: `${BASE_URL}/${lang}/${section}`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
-        priority: 0.8,
+        priority: section === 'search' ? 0.5 : 0.8,
       });
     }
 
