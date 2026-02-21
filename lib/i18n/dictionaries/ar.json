@@ -1,0 +1,100 @@
+{
+  "site": {
+    "name": "أطلس الطب",
+    "tagline": "دليلك لفهم صحتك",
+    "copyright": "© 2026 أطلس الطب. جميع الحقوق محفوظة."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "conditions": "الأمراض",
+    "drugs": "الأدوية",
+    "tests": "الفحوصات",
+    "calculators": "الحاسبات",
+    "bodyMap": "خريطة الجسم",
+    "search": "بحث...",
+    "language": "اللغة"
+  },
+  "footer": {
+    "content": "المحتوى",
+    "resources": "الموارد",
+    "legal": "قانوني",
+    "about": "من نحن",
+    "editorialPolicy": "السياسة التحريرية",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "disclaimer": "إخلاء المسؤولية الطبية",
+    "contact": "اتصل بنا",
+    "bmiCalculator": "حاسبة مؤشر كتلة الجسم",
+    "pregnancyCalc": "حاسبة الحمل",
+    "heartRiskCalc": "حاسبة مخاطر القلب"
+  },
+  "article": {
+    "overview": "نظرة عامة",
+    "symptoms": "الأعراض",
+    "causes": "الأسباب وعوامل الخطر",
+    "diagnosis": "التشخيص",
+    "treatment": "العلاج",
+    "prevention": "الوقاية",
+    "livingWith": "التعايش مع",
+    "whenToSeeDoctor": "متى تراجع الطبيب",
+    "relatedConditions": "أمراض ذات صلة",
+    "relatedDrugs": "أدوية ذات صلة",
+    "relatedTests": "فحوصات ذات صلة",
+    "onThisPage": "في هذه الصفحة",
+    "sources": "المصادر",
+    "lastUpdated": "آخر تحديث",
+    "reviewedBy": "مراجعة طبية بواسطة",
+    "minRead": "دقيقة للقراءة",
+    "quickFacts": "حقائق سريعة",
+    "alsoKnownAs": "يُعرف أيضاً بـ",
+    "affectedArea": "المنطقة المتأثرة",
+    "commonIn": "شائع في",
+    "treatable": "قابل للعلاج",
+    "urgency": "الاستعجال"
+  },
+  "drug": {
+    "whatIs": "ما هو",
+    "howItWorks": "كيف يعمل",
+    "dosage": "الجرعة وطريقة الاستخدام",
+    "sideEffects": "الآثار الجانبية",
+    "warnings": "التحذيرات والاحتياطات",
+    "interactions": "التفاعلات الدوائية",
+    "faq": "الأسئلة الشائعة",
+    "drugClass": "فئة الدواء",
+    "usedFor": "يُستخدم لـ",
+    "form": "الشكل",
+    "prescription": "وصفة طبية",
+    "pregnancyCategory": "فئة الحمل",
+    "brandNames": "الأسماء التجارية"
+  },
+  "test": {
+    "whatIs": "ما هو هذا الفحص؟",
+    "whyDone": "لماذا يُجرى؟",
+    "howToPrepare": "كيفية التحضير",
+    "duringTest": "ماذا يحدث أثناء الفحص",
+    "results": "فهم نتائجك",
+    "faq": "الأسئلة الشائعة",
+    "type": "النوع",
+    "fasting": "يتطلب صيام",
+    "duration": "المدة",
+    "painLevel": "مستوى الألم"
+  },
+  "calculator": {
+    "calculate": "احسب",
+    "result": "النتيجة",
+    "reset": "إعادة تعيين"
+  },
+  "common": {
+    "readMore": "اقرأ المزيد",
+    "viewAll": "عرض الكل",
+    "searchPlaceholder": "ابحث عن الأمراض، الأدوية، الفحوصات...",
+    "noResults": "لم يتم العثور على نتائج",
+    "loading": "جاري التحميل...",
+    "yes": "نعم",
+    "no": "لا",
+    "home": "الرئيسية"
+  },
+  "disclaimer": {
+    "text": "المحتوى على أطلس الطب هو لأغراض إعلامية فقط. وليس المقصود منه أن يكون بديلاً عن المشورة الطبية المهنية أو التشخيص أو العلاج. اطلب دائماً مشورة طبيبك أو مقدم الرعاية الصحية المؤهل."
+  }
+}

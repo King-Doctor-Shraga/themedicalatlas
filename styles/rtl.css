@@ -1,0 +1,34 @@
+/* ============================================
+   RTL (Right-to-Left) Support
+   For Arabic content
+   ============================================ */
+
+/* Flip directional spacing using logical properties */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* Breadcrumb separator flips */
+[dir="rtl"] .breadcrumb-separator {
+  transform: scaleX(-1);
+}
+
+/* Callout border flips to right side */
+[dir="rtl"] .callout-border-start {
+  border-left: none;
+  border-right-width: 4px;
+  border-right-style: solid;
+}
+
+/* Scroll indicators */
+[dir="rtl"] .scroll-indicator {
+  transform: scaleX(-1);
+}
+
+/* Sidebar position flips */
+@media (min-width: 1024px) {
+  [dir="rtl"] .sidebar-end {
+    left: 0;
+    right: auto;
+  }
+}

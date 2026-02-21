@@ -1,0 +1,160 @@
+/* ============================================
+   Typography System
+   Playfair Display (headings) + Inter (body)
+   With Arabic and Hindi script support
+   ============================================ */
+
+/* Type Scale */
+.text-display {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.text-h1 {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.text-h2 {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.005em;
+  font-weight: 600;
+}
+
+.text-h3 {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.text-h4 {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  font-weight: 600;
+}
+
+.text-body {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.text-body-small {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.text-caption {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+.text-overline {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Article body typography */
+.article-body {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.article-body p {
+  margin-bottom: 1.5em;
+}
+
+.article-body h2 {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.005em;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+.article-body h3 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.article-body ul,
+.article-body ol {
+  padding-inline-start: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.article-body li {
+  margin-bottom: 0.5em;
+}
+
+.article-body a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.article-body a:hover {
+  color: var(--color-accent-hover);
+}
+
+/* Max line width for readability */
+.article-body {
+  max-width: 680px;
+}
+
+/* RTL typography adjustments */
+[dir="rtl"] .text-body,
+[dir="rtl"] .article-body {
+  font-size: 18.7px; /* 10% larger for Arabic */
+  line-height: 30px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+  .text-display {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .text-h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .text-h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text-body,
+  .article-body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  [dir="rtl"] .text-body,
+  [dir="rtl"] .article-body {
+    font-size: 17.6px;
+    line-height: 28px;
+  }
+}

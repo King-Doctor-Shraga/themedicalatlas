@@ -1,0 +1,100 @@
+{
+  "site": {
+    "name": "Medical Atlas",
+    "tagline": "Your guide to understanding health",
+    "copyright": "© 2026 Medical Atlas. All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "conditions": "Conditions",
+    "drugs": "Drugs",
+    "tests": "Tests",
+    "calculators": "Calculators",
+    "bodyMap": "Body Map",
+    "search": "Search...",
+    "language": "Language"
+  },
+  "footer": {
+    "content": "Content",
+    "resources": "Resources",
+    "legal": "Legal",
+    "about": "About Us",
+    "editorialPolicy": "Editorial Policy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "disclaimer": "Medical Disclaimer",
+    "contact": "Contact",
+    "bmiCalculator": "BMI Calculator",
+    "pregnancyCalc": "Pregnancy Calculator",
+    "heartRiskCalc": "Heart Risk Calculator"
+  },
+  "article": {
+    "overview": "Overview",
+    "symptoms": "Symptoms",
+    "causes": "Causes & Risk Factors",
+    "diagnosis": "Diagnosis",
+    "treatment": "Treatment",
+    "prevention": "Prevention",
+    "livingWith": "Living With",
+    "whenToSeeDoctor": "When to See a Doctor",
+    "relatedConditions": "Related Conditions",
+    "relatedDrugs": "Related Drugs",
+    "relatedTests": "Related Tests",
+    "onThisPage": "On this page",
+    "sources": "Sources",
+    "lastUpdated": "Last updated",
+    "reviewedBy": "Medically reviewed by",
+    "minRead": "min read",
+    "quickFacts": "Quick Facts",
+    "alsoKnownAs": "Also known as",
+    "affectedArea": "Affected area",
+    "commonIn": "Common in",
+    "treatable": "Treatable",
+    "urgency": "Urgency"
+  },
+  "drug": {
+    "whatIs": "What is",
+    "howItWorks": "How It Works",
+    "dosage": "Dosage & Administration",
+    "sideEffects": "Side Effects",
+    "warnings": "Warnings & Precautions",
+    "interactions": "Drug Interactions",
+    "faq": "FAQ",
+    "drugClass": "Drug class",
+    "usedFor": "Used for",
+    "form": "Form",
+    "prescription": "Prescription",
+    "pregnancyCategory": "Pregnancy category",
+    "brandNames": "Brand names"
+  },
+  "test": {
+    "whatIs": "What is this test?",
+    "whyDone": "Why is it done?",
+    "howToPrepare": "How to prepare",
+    "duringTest": "What happens during the test",
+    "results": "Understanding your results",
+    "faq": "FAQ",
+    "type": "Type",
+    "fasting": "Fasting required",
+    "duration": "Duration",
+    "painLevel": "Pain level"
+  },
+  "calculator": {
+    "calculate": "Calculate",
+    "result": "Result",
+    "reset": "Reset"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View All",
+    "searchPlaceholder": "Search conditions, drugs, tests...",
+    "noResults": "No results found",
+    "loading": "Loading...",
+    "yes": "Yes",
+    "no": "No",
+    "home": "Home"
+  },
+  "disclaimer": {
+    "text": "The content on Medical Atlas is for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider."
+  }
+}
