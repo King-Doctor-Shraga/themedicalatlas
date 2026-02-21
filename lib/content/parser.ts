@@ -179,19 +179,19 @@ export function resolveCategory(frontmatter: MDXFrontmatter, folderCategory: str
 
 // ─── Scan Content Directory ─────────────────────────────────────────
 
-const CONTENT_ROOT = path.resolve(process.cwd(), 'Content', 'en');
+const CONTENT_BASE = path.resolve(process.cwd(), 'Content');
 
-export function scanContentFiles(): Array<{ filePath: string; folderCategory: string }> {
+export function scanContentFiles(locale: string = 'en'): Array<{ filePath: string; folderCategory: string }> {
+  const root = path.join(CONTENT_BASE, locale);
   const results: Array<{ filePath: string; folderCategory: string }> = [];
 
-  if (!fs.existsSync(CONTENT_ROOT)) return results;
+  if (!fs.existsSync(root)) return results;
 
   function walk(dir: string, topCategory: string) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
-        // For nested dirs like conditions/cardiology, keep the top-level folder as category
         walk(fullPath, topCategory || entry.name);
       } else if (entry.name.endsWith('.mdx')) {
         results.push({ filePath: fullPath, folderCategory: topCategory });
@@ -199,10 +199,10 @@ export function scanContentFiles(): Array<{ filePath: string; folderCategory: st
     }
   }
 
-  const topDirs = fs.readdirSync(CONTENT_ROOT, { withFileTypes: true });
+  const topDirs = fs.readdirSync(root, { withFileTypes: true });
   for (const dir of topDirs) {
     if (dir.isDirectory()) {
-      walk(path.join(CONTENT_ROOT, dir.name), dir.name);
+      walk(path.join(root, dir.name), dir.name);
     }
   }
 

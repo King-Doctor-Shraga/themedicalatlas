@@ -76,13 +76,22 @@ export default async function LangLayout({
             `,
           }}
         />
-        {process.env.NEXT_PUBLIC_ADSENSE_ID && (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID}`}
-            crossOrigin="anonymous"
-          />
-        )}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3053188645293857"
+          crossOrigin="anonymous"
+        />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN9NTRZM7L" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GN9NTRZM7L');
+            `,
+          }}
+        />
       </head>
       <body
         className={`${fontHeadingVar} ${fontBodyVar} antialiased bg-[var(--color-bg-primary)] text-[var(--color-text-primary)]`}
